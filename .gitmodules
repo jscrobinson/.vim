@@ -16,3 +16,6 @@
 [submodule "bundle/synastic"]
 	path = bundle/synastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle/nerdtree-tabs"]
+	path = bundle/nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git

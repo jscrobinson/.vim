@@ -12,9 +12,7 @@ set mouse=a
 filetype on
 filetype plugin on
 filetype plugin indent on
-" NERDTree
-autocmd vimenter * NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 " Ruby
 if has('ruby')
   autocmd FileType ruby set omnifunc=rubycomplete#Complete
