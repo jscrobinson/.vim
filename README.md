@@ -8,7 +8,7 @@ Installation
 
 ````bash
 cd ~/
-git clone git://github.com/Oneiroi/.vim.git
+git clone git://github.com/jscrobinson/.vim.git
 cd ~/.vim
 git submodule init
 git submodule update
